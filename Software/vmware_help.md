@@ -8,6 +8,7 @@ vmware
 
 显示器   /图像内存----2GB
 
+---------------------这设置了更卡。
 
 
 [虚拟机中开启dnf：](https://www.seoxiehui.cn/article-18892-1.html)
