@@ -72,7 +72,6 @@ sudo vim sources.list
 # http://mirrors.aliyun.com/ubuntu/
 deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted
 deb http://mirrors.aliyun.com/ubuntu/ bionic universe
-deb http://mirrors.aliyun.com/ubuntu/ bionic universe
 deb http://mirrors.aliyun.com/ubuntu/ bionic-updates universe
 deb http://mirrors.aliyun.com/ubuntu/ bionic multiverse
 deb http://mirrors.aliyun.com/ubuntu/ bionic-updates multiverse
@@ -82,6 +81,25 @@ deb http://mirrors.aliyun.com/ubuntu/ bionic-security universe
 deb http://mirrors.aliyun.com/ubuntu/ bionic-security multiverse
 
 ```
+
+```
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+# --------------------- 
+# 作者：Giaming 
+# 来源：CSDN 
+# 原文：https://blog.csdn.net/qq_33532713/article/details/86438807 
+# 版权声明：本文为博主原创文章，转载请附上博文链接！
+```
+
 
 输入命令sudo apt-get update进行软件源更新
 ```
