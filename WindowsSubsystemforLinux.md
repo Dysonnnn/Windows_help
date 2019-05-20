@@ -160,3 +160,18 @@ sudo /etc/init.d/ssh restart
 chsh -s /bin/zsh 
 ```
 [ubuntu 14.04下配置terminal为zsh默认环境](https://blog.csdn.net/zxgdll/article/details/70858857)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
