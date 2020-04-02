@@ -133,6 +133,8 @@ $ sudo vim /etc/ssh/sshd_config
 # filename : sshd_config
 Port xxxx # 开启端口xxxx
 ListenAddress 0.0.0.0 # 开启连接地址
+PasswordAuthentication yes # 允许用户名密码方式登录
+
 ```
 
 查看sshd的端口情况，使用命令
@@ -175,3 +177,23 @@ chsh -s /bin/zsh
 
 
 
+---
+
+如何重启 Windows 10 子系统（WSL) ubuntu
+如何重启 Windows 10 子系统（WSL) ubuntu
+WSL 子系统是基于 LxssManager 服务运行的。
+只需要将 LxssManager 重启即可。
+可以做成一个 bat 文件。
+
+net stop LxssManager
+net start LxssManager
+
+
+https://www.cnblogs.com/F4NNIU/p/10015183.html
+
+--- 无权访问，用管理员权限的终端就可以了。
+
+----
+
+vsftp FTP服务器 server settings , and add different users
+https://www.cnblogs.com/spaceship9/p/3158898.html
